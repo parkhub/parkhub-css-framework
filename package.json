@@ -1,0 +1,23 @@
+{
+  "name": "parkhub-css-framework",
+  "version": "1.0.0",
+  "description": "Foundation based css framework for parkhub applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "loganbfisher",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "foundation-sites": "^6.3.1",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.0.0"
+  }
+}

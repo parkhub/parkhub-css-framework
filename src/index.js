@@ -1,7 +1,6 @@
-require('./styles.scss');
-require('foundation-sites/dist/js/foundation.js');
+import 'foundation-sites/dist/js/foundation';
+import $ from 'jquery';
+import './styles.scss';
 
 // Initializes foundation javascript files.
-$(function() {
-   $(document).foundation();
-});
+$(document).foundation();

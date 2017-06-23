@@ -1,4 +1,5 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
 const webpack = require('webpack');
 
@@ -25,6 +26,10 @@ module.exports = {
    ]
  },
  plugins: [
+  new CopyWebpackPlugin([{
+    from: 'src/fonts',
+    to: 'dist/fonts'
+  }]),
   new ExtractTextPlugin({
     filename: 'dist/styles.css',
     allChunks: true,

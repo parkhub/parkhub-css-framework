@@ -3,4 +3,6 @@ import $ from 'jquery';
 import './styles.scss';
 
 // Initializes foundation javascript files.
-$(document).foundation();
+$(() => {
+  $(document).foundation();
+});
